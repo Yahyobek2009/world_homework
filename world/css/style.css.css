@@ -1,0 +1,149 @@
+*{
+     margin: 0 auto;
+}
+.container{
+    background: #FAFAFA;
+    width: 1440px;
+    height: 1200px;
+    flex-shrink: 0;
+}
+.header{
+      display: flex;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    width: 1440px;
+    height: 80px;
+    flex-shrink: 0;
+    gap: 900px;
+}
+ h2{
+     padding: 23px 0px;
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+ .header2 img{
+    width: 20px;
+    height: 20px;
+ }
+ .header2{
+    padding: 20px;
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+ .logo{
+   display: flex;
+      padding: 100px 80px;
+      gap: 600px;
+ }
+.germany{
+  padding: 0px 78px;
+
+}
+.text{
+       padding: 24px 26px;
+       color: #111517;
+       font-family: Nunito Sans;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 800;
+       line-height: 26px; /* 144.444% */
+}
+.title{
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 8px;
+}
+title p {
+     padding: 0px 24px;
+}
+.cards1{
+    padding: 0px 80px;
+}
+ .card{
+   width: 264px;
+   height: 336px;
+   flex-shrink: 0;
+   border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+.cards1{
+   display: flex;
+   gap: 46px;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+
+.cards1 .card h2{
+   padding: 24px 24px;
+}
+.cards1 .card h4{
+   gap: 2px;
+   padding: 0px 24px;
+}
+.card img{
+   width: 267px;
+   height: 160px;
+}
+
+
+
+.cards2{
+   padding: 67px 80px;
+}
+.card{
+  width: 264px;
+  height: 336px;
+  flex-shrink: 0;
+  border-radius: 5px;
+   background: #FFF;
+   box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+.cards2{
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cards2 .card{
+  cursor: pointer;
+  height: 336px;
+  background-color: #fff;
+  border-radius: 8px;
+  
+}
+
+.cards2 .card h2{
+  padding: 24px 24px;
+}
+.cards2 .card h4{
+  gap: 2px;
+  padding: 0px 24px;
+}
+.card img{
+  width: 267px;
+  height: 160px;
+}
+
+.card:hover{
+   transform: scale(89%);
+   
+   
+}
+.cardx:hover{
+   transform: scale(90%);
+;}
+.cardx{
+   transition: all 1s ease-in-out;
+}
